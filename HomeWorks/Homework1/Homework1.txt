@@ -1,2 +1,2 @@
 Hello Comscool and Artur, This Message is Written With Vim
-
+and these changes are done afterr creating a master branch and checking out homework1 branch
