@@ -1,0 +1,16 @@
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\bin\Debug\net5.0\WEEK4_IT.exe
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\bin\Debug\net5.0\WEEK4_IT.deps.json
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\bin\Debug\net5.0\WEEK4_IT.runtimeconfig.json
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\bin\Debug\net5.0\WEEK4_IT.runtimeconfig.dev.json
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\bin\Debug\net5.0\WEEK4_IT.dll
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\bin\Debug\net5.0\ref\WEEK4_IT.dll
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\bin\Debug\net5.0\WEEK4_IT.pdb
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.csproj.AssemblyReference.cache
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.AssemblyInfoInputs.cache
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.AssemblyInfo.cs
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.csproj.CoreCompileInputs.cache
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.dll
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\ref\WEEK4_IT.dll
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.pdb
+C:\Users\a.maisuradze\Desktop\Desktop\Projects\ComSchool\HomeWorks\HomeWorks\Homework2\WEEK4_IT\WEEK4_IT\obj\Debug\net5.0\WEEK4_IT.genruntimeconfig.cache
