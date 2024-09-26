@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WEEK5_IT8/1.0.0": {
+        "runtime": {
+          "WEEK5_IT8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WEEK5_IT8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
