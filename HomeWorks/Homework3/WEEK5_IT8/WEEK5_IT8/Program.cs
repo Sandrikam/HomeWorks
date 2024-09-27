@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace WEEK5_IT8
 {
@@ -7,18 +8,21 @@ namespace WEEK5_IT8
         static void Main(string[] args)
         {
             // Call the function to check if a number is even or odd
-            CheckEvenOrOdd();
+            //CheckEvenOrOdd();
 
             // Call the function to perform arithmetic operations
-            PerformArithmeticOperations();
+            //PerformArithmeticOperations();
             // Call Function to Switch Variables
-            switchVariables();
+            //switchVariables();
 
             //Call to generate Multiplication Table
-            generateMultiplicTable();
+            //generateMultiplicTable();
 
             //Call to Print all evens ans squares
-            printEvenSquare();
+            //printEvenSquare();
+
+            //get min max of array
+            getMinMaxArr();
         }
 
         static void CheckEvenOrOdd()
@@ -129,6 +133,15 @@ namespace WEEK5_IT8
 
 
             }
+        }
+        static void getMinMaxArr()
+        {
+            int[] arr = new int[] { 50, 23, 4, 554, 4 };
+
+            var min = arr.Min();
+            var max = arr.Max();
+
+            Console.WriteLine($"min: {min} Max: {max}");
         }
     }
 }
