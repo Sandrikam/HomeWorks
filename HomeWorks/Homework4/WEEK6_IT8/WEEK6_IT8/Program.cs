@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using WEEK6_IT8;
 
 namespace WEEK6_IT8
 {
@@ -7,63 +8,43 @@ namespace WEEK6_IT8
     {
         static void Main(string[] args)
         {
-            //SplitArray();
+            var ContactApp      = new ContactApp();
+            var SplitArray      = new SplitArray();
+            var ElementsInArray = new ElementsInArray();
+            var GetTopResult = new GetTopResult();
 
-            contactsApp();
-        }
-
-        static void SplitArray()
-        {
-            Console.WriteLine("Enter Length of array:");
-            var n = int.Parse(Console.ReadLine());
-            int[] nums = new int[n];
-
-            // Fill the array with numbers from 0 to n
-            for (int i = 0; i <= n; i++)
+            while (true)
             {
-                nums[i] = i;
-            }
+                Console.WriteLine("Select an option:");
+                Console.WriteLine("1. Split Array");
+                Console.WriteLine("2. Contacts App");
+                Console.WriteLine("3. Elements in Array");
+                Console.WriteLine("4. Top Result");
 
-            // Create lists to hold evens and odds
-            var evens = new List<int>();
-            var odds = new List<int>();
+                var choice = Console.ReadLine();
 
-            for (int j = 0; j < nums.Length; j++)
-            {
-                var number = nums[j];
-
-                if (number % 2 == 0)
+                switch (choice)
                 {
-                    evens.Add(number); // Add the even number to the list
-                    //Console.WriteLine($"Evens: {number}");
-                }
-                else
-                {
-                    odds.Add(number); // Add the odd number to the list
-                    //Console.WriteLine($"Odds: {number}");
+                    case "1":
+                        SplitArray.Run();
+                        break;
+                    case "2":
+                        ContactApp.Run();
+                        break;
+                    case "3":
+                        ElementsInArray.Run();
+                        break;
+                    case "4":
+                        GetTopResult.Run();
+                        break;
+                    case "5":
+                        return;
+                    default:
+                        Console.WriteLine("Invalid option, please try again.");
+                        break;
                 }
             }
-
-            // Convert lists back to arrays if needed
-            int[] evenArray = evens.ToArray();
-            int[] oddArray = odds.ToArray();
-
-            // Optionally print the final arrays
-            Console.WriteLine("Even numbers: " + string.Join(", ", evenArray));
-            Console.WriteLine("Odd numbers: " + string.Join(", ", oddArray));
         }
-
-        static void contactsApp()
-        {
-            Console.WriteLine("Welcome To Contacts");
-            Dictionary<int, string> Contacts = new Dictionary<int, string>();
-            Contacts.Add(557391010, "Sandro");
-            Contacts.Add(599694141, "Kaladze");
-            Contacts.Add(555555555, "El Presidente");
-
-            Console.WriteLine(Contacts(1));
-
-
-        }
+        
     }
 }
