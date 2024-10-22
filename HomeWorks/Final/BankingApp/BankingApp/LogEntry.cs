@@ -2,12 +2,13 @@
 
 namespace BankingApp
 {
-    public class Transaction
+    public class LogEntry
     {
-        public DateTime TransactionDate { get; set; }
+        public string TransactionDate { get; set; }
         public string TransactionType { get; set; }
         public decimal AmountGEL { get; set; }
         public decimal AmountUSD { get; set; }
         public decimal AmountEUR { get; set; }
+        public string CardNumber { get; set; }
     }
 }
