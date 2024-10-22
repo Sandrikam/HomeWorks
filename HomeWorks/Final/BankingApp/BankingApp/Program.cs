@@ -15,27 +15,52 @@ namespace BankingApp
 
             // Get card details
             Console.Write("Enter Card Number: ");
-            string cardNumber = Console.ReadLine();
+            string cardNumber = Console.ReadLine().Trim();
+            Console.WriteLine(cardNumber);
+
             Console.Write("Enter CVC: ");
-            string cvc = Console.ReadLine();
+            string cvc = Console.ReadLine().Trim();
+            Console.WriteLine(cvc);
+            
             Console.Write("Enter Expiration Date (MM/YY): ");
-            string expirationDate = Console.ReadLine();
+            string expirationDate = Console.ReadLine().Trim();
+            Console.WriteLine(expirationDate);
+
+            Console.WriteLine("Available card numbers:");
+            foreach (var key in customers.Keys)
+            {
+                Console.WriteLine(key);
+            }
+
 
             // Validate card details
-            if (customers.ContainsKey(cardNumber) &&
-                customers[cardNumber].CardDetails.Cvc == cvc && 
-                customers[cardNumber].CardDetails.ExpirationDate == expirationDate)
+            if (customers.ContainsKey(cardNumber))
             {
-                Console.Write("Enter PIN: ");
-                string pin = Console.ReadLine();
+                var customer = customers[cardNumber];  // Get the customer for the card number
+                Console.WriteLine(customer);
 
-                if (customers[cardNumber].ValidatePin(pin))
+                // Debugging output
+                Console.WriteLine($"Validating CVC: {customer.CardDetails.Cvc} == {cvc}");
+                Console.WriteLine($"Validating Expiration Date: {customer.CardDetails.ExpirationDate} == {expirationDate}");
+
+                if (customer.CardDetails.Cvc == cvc &&
+                    customer.CardDetails.ExpirationDate == expirationDate)
                 {
-                    ShowMenu(customers[cardNumber]);
+                    Console.Write("Enter PIN: ");
+                    string pin = Console.ReadLine().Trim();  // Trim whitespace
+
+                    if (customer.ValidatePin(pin))
+                    {
+                        ShowMenu(customer);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrect PIN.");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("Incorrect PIN.");
+                    Console.WriteLine("Please Provide Correct Card Details.");
                 }
             }
             else

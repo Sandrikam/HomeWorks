@@ -30,13 +30,11 @@ namespace BankingApp
                     Console.WriteLine($"An error occurred while loading customers: {ex.Message}");
                 }
             }
-            else
-            {
-                var customers = SeedData(); // Load initial data if JSON file doesn't exist
-                SaveCustomers(customers); // Save initial data to JSON
-                return customers;
-            }
-            return new Dictionary<string, Customer>();
+
+            // Load initial data if JSON file doesn't exist
+            var initialCustomers = SeedData();
+            SaveCustomers(initialCustomers); // Save initial data to JSON
+            return initialCustomers; // Return the seeded data
         }
 
         private static Dictionary<string, Customer> SeedData()
@@ -45,7 +43,7 @@ namespace BankingApp
             {
                 { "1234567890123456", new Customer("Artur", "Zakharyan", "1234-5678-9012-3456", "12/25", "123", "2307") },
                 { "9876543210987654", new Customer("Sardion", "Maisuryan", "9876-5432-1098-7654", "11/26", "456", "2308") },
-                { "9786534190875643", new Customer("Jorik", "Kapanyan", "9786-5342-1908-7564", "11/29", "125", "1967") }            
+                { "9786534190875643", new Customer("Jorik", "Kapanyan", "9786-5342-1908-7564", "11/29", "125", "1967") }
             };
 
             return customers;
